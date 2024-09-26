@@ -1,0 +1,5 @@
+**/node_modules/
+
+api/node_modules
+
+website-portfolio/node_modules
