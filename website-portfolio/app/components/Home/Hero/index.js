@@ -17,7 +17,7 @@ const index = () => {
   return (
     <section>
       <div 
-        className="relative bg-fixed w-full h-screen flex items-center justify-center lg:justify-center bg-cover bg-center bg-no-repeat bg-opacity-80"
+        className="relative lg:bg-fixed w-full h-screen flex items-center justify-center lg:justify-center bg-cover bg-center bg-no-repeat bg-opacity-80"
         style={{
             backgroundImage: 'linear-gradient(to bottom, rgba(15, 23, 42, 0.8), rgba(58, 24, 86, 0.8)), url("/bg-hero.jpg")'
         }}>
@@ -34,7 +34,9 @@ const index = () => {
           </h2>
           <p>Com mais de 3 anos de experiência no desenvolvimento de aplicações, sempre busco entregar qualidade e funcionalidade ao usuário. </p>
           <button type="button" className="mt-2 text-white bg-gradient-to-r w-fit from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-bold rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
-          Download CV
+            <a href="/CV_MarianaPMonteiro.pdf" download="/CV_MarianaPMonteiro.pdf">
+                 Download CV
+            </a>
           </button>
           <div className="flex gap-4 mt-2">
           <FaLinkedin className="text-[24px] cursor-pointer" onClick={() => window.open('https://www.linkedin.com/in/marianapmont', '_blank')}/>
