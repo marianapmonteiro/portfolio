@@ -2,4 +2,6 @@
 
 api/node_modules
 
+api/.env
+
 website-portfolio/node_modules
