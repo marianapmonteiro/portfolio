@@ -58,12 +58,12 @@ const Index = () => {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.3 }}
-            className="w-full flex flex-col-reverse items-center justify-center gap-14 md:gap-32 lg:gap-0 lg:justify-around lg:flex-row md:h-fit lg:h-screen animate-fadeIn"
+            className="w-full flex flex-col-reverse items-center justify-center gap-14 md:gap-28 md:py-10 lg:gap-0 lg:justify-around lg:flex-row md:h-fit lg:h-screen animate-fadeIn"
           >
             <div className="bg-gray-800 p-8 rounded-lg shadow-lg max-w-[600px] 2xl:max-w-[50%] mb-10 md:mb-0 2xl:px-20 2xl:py-16">
-                <h2 className="text-[24px] md:text-[28px] mb-4 2xl:mb-8 2xl:text-[44px]">_Sobre mim</h2>
-                    <p className="font-roboto text-[14px] text-gray-100 my-4 text-justify leading-[28px] 2xl:text-[24px] 2xl:leading-[42px] ">
-                    Meu nome é Mariana, tenho 25 anos e sou apaixonada por tecnologia. Sou graduada em Engenharia de Software pela Universidade Cesumar, onde concluí meu curso em 2023. Desde 2019, venho me dedicando ao desenvolvimento de aplicações web e, em 2021, tive a oportunidade de estagiar, onde aprendi e aperfeiçoei diversas tecnologias que utilizo hoje.
+                <h2 className="text-[32px] mb-4 2xl:mb-8 2xl:text-[44px]">_Sobre mim</h2>
+                    <p className="font-roboto text-[16px] text-gray-100 my-4 text-justify leading-[28px] 2xl:text-[24px] 2xl:leading-[42px] ">
+                        Meu nome é Mariana, tenho 25 anos e sou graduada em Engenharia de Software pela Universidade Cesumar, onde concluí meu curso em 2023. Desde 2019, venho me dedicando ao desenvolvimento de aplicações web e, em 2021, tive a oportunidade de estagiar, onde aprendi e aperfeiçoei diversas tecnologias que utilizo hoje.
                     Estou em busca de uma nova oportunidade no mercado de trabalho, onde possa aplicar minhas habilidades e continuar a crescer profissionalmente. Sou entusiasmada, proativa e sempre disposta a aprender.
                     </p>
             </div>
@@ -76,13 +76,13 @@ const Index = () => {
                 <div className="px-8 pt-8">
                     <h2 className="text-2xl font-bold mb-4 2xl:text-[24px]">&#123;</h2>
                     <p className="text-green-500 font-bold text-[20px] ml-8 2xl:text-[24px]">
-                        <span className="text-pink-500  font-bold">"name":</span> "Mariana"
+                        <span className="text-pink-500  font-bold">"name":</span> "Mariana"<span className="text-white">,</span>
                     </p>
                     <p className="text-green-500  font-bold text-[20px] ml-8 2xl:text-[24px]">
-                    <span className="text-pink-500">"age":</span> "25"
+                    <span className="text-pink-500">"age":</span> 25<span className="text-white">,</span>
                     </p>
                     <p className="text-green-500  font-bold text-[20px] ml-8 2xl:text-[24px]">
-                    <span className="text-pink-500">"role":</span> "Web Developer"
+                    <span className="text-pink-500">"role":</span> "Web Developer"<span className="text-white">,</span>
                     </p>
                     <p className="text-green-500  font-bold text-[20px] ml-8 2xl:text-[24px]">
                         <span className="text-pink-500">"city":</span> "Rio de Janeiro"

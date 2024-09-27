@@ -9,7 +9,7 @@ function Index() {
   const expDate = ["Fev. 2021 - Nov. 2021", "Nov. 2021 - Nov. 2023", "Agosto 2019 - Nov. 2023"]
   const expDescriptions = ["Curso de desenvolvimento Web (Javascript Vanilla, CSS, HTML, Vue).", "Privat - Serviços Tecnológicos", "UniCesumar" ]
   return (
-    <section className="py-20 px-20 bg-slate-950 relative overflow-hidden">
+    <section id="third-section" className="py-20 px-20 bg-slate-950 relative overflow-hidden">
       <img src="bbblurry.svg" className="absolute top-0 md:top-[-30%] right-0 md:left-0 select-none pointer-events-none"  />
       {/* <img src="/bg-dots.png" className="absolute top-0 left-0" style={{width:"150px", height:"120px", clipPath: "inset(1% 49% 25% 0)"}}/> */}
       <img src="/bg-dots.png" className="select-none pointer-events-none absolute bottom-0 right-0" style={{width:"200px", height:"auto", clipPath: "polygon(100% 0, 0% 100%, 100% 100%)"}}/>

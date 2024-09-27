@@ -14,7 +14,7 @@ function index() {
   const titles = ["HTML5","CSS3", "JavaScript", "TypeScript", "React", "Next", "Tailwind", "Node", "Express","MongoDB","SQL",]
 
   return (
-    <section className="h-fit lg:h-screen 2xl:h-fit 2xl:py-32 w-full pt-20 pb-40 lg:py-20 px-20 overflow-hidden relative bg-[url('/pattern.svg')] bg-opacity-5 z-40">
+    <section id="technologies-section" className="h-fit lg:h-screen 2xl:h-fit 2xl:py-32 w-full pt-20 pb-40 lg:py-20 px-20 overflow-hidden relative bg-[url('/pattern.svg')] bg-opacity-5 z-40">
        <img src="/blur_technologies.svg" className="absolute bg-center bg-no-repeat bg-cover bottom-0 m-auto select-none pointer-events-none" /> 
       <h2 className="text-[36px] pb-20">_Tecnologias</h2>
         <div className="w-full h-fit bg-slate-900 p-4 rounded-md">

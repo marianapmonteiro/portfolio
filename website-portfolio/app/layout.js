@@ -8,10 +8,12 @@ import { Toaster } from "@/components/ui/toaster";
 const roboto = Roboto({
   subsets: ['latin'],
   weight: ["400", "500", "700"], 
+  variable: '--font-roboto',
 });
 const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ['latin'], 
-  weights: ['400', '700'], 
+  weight: ['400', '700'], 
+  variable: '--font-plus-jakarta-sans',
 });
 
 export const metadata = {

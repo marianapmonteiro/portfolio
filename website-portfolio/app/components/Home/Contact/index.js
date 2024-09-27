@@ -52,7 +52,7 @@ const Index = () => {
   };
 
   return (
-    <section className="relative">
+    <section id="contact-section" className="relative">
       {/* Imagem de fundo */}
       <img 
         src="/oooscillate.svg" 
@@ -101,8 +101,8 @@ const Index = () => {
                 <button
                   type="submit"
                 //   onClick={()=>{sendMessage(name, email, message)}}
-                  className="mt-4 bg-gradient-to-r from-blue-500 to-purple-500 rounded-md h-[50px] w-[145px] flex justify-center items-center">
-                  <div className="relative hover:bg-gradient-to-r from-blue-500 to-purple-500 transition-all duration-500 bg-slate-900 h-[45px] w-[140px] rounded-md flex items-center justify-center text-sm focus:ring-4 focus:outline-none focus:ring-purple-300 shadow-lg shadow-purple-500/50">Enviar Mensagem</div>
+                  className="mt-4 bg-gradient-to-r from-blue-500 to-purple-500 rounded-md h-[50px] w-[145px] flex justify-center items-center ">
+                  <div className="relative hover:bg-gradient-to-r from-blue-500 to-purple-500 transition-colors duration-300 ease-in-out bg-slate-900 h-[45px] w-[140px] rounded-md flex items-center justify-center text-sm focus:ring-4 focus:outline-none focus:ring-purple-300 shadow-lg shadow-purple-500/50">Enviar Mensagem</div>
                 </button>
               </div>
             </form>

@@ -8,6 +8,10 @@ module.exports = {
   ],
   theme: {
   	extend: {
+        fontFamily: {
+            "plus-jakarta-sans": "var(--font-plus-jakarta-sans)",
+            "roboto": "var(--font-roboto)",
+          },
 		screens:{
 			'xs': '200px',
 			'sm': '640px',
