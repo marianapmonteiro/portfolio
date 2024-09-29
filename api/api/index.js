@@ -13,7 +13,7 @@ app.use(cors({
 
 app.use(express.json());
 
-const router = require("./router.js");
+const router = require("../router.js");
 
 app.use('/api', router);
 
