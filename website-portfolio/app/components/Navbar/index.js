@@ -17,7 +17,7 @@ const Navbar = () => {
       {/* Versão Desktop */}
       <div className="hidden md:flex items-center justify-between px-16 py-6">
         <div>
-          <img src="/logo.png" alt="Logo" className="w-[100px] h-auto"/>
+          <img src="/logo.png" alt="Logo" className="w-[100px] h-auto cursor-pointer"  onClick={() => window.location.href = '/'}/>
         </div>
         <ul className="flex space-x-10 items-center">
             <li
@@ -47,7 +47,7 @@ const Navbar = () => {
       {/* Versão Móvel */}
       <div className="md:hidden flex items-center justify-between px-4 py-6">
         <div>
-             <img src="/logo.png" alt="Logo" className="w-[80px] h-auto"/>
+             <img src="/logo.png" alt="Logo" className="w-[80px] h-auto cursor-pointer" onClick={() => window.location.href = '/'}/>
         </div>
         <button onClick={() => setIsOpen(!isOpen)} className="text-xl">
           {isOpen ? <HiX className="text-[32px]"/> : <HiMenu className="text-[32px]" />}
@@ -65,13 +65,13 @@ const Navbar = () => {
       >
         <ul className="space-y-4">
           <li className="pl-4 cursor-pointer" onClick={() => scrollToSection('second-section')}>Sobre mim</li>
-          <hr className="w-full border-purple-900"/>
+          <hr className="w-full border-purple-800"/>
           <li className="pl-4 cursor-pointer" onClick={() => scrollToSection('third-section')}>Experiência</li>
-          <hr className="w-full border-purple-900"/>
+          <hr className="w-full border-purple-800"/>
           <li className="pl-4 cursor-pointer" onClick={() => scrollToSection('technologies-section')}>Tecnologias</li>
-          <hr className="w-full border-purple-900"/>
+          <hr className="w-full border-purple-800"/>
           <li className="pl-4 cursor-pointer">
-            <button onClick={() => scrollToSection('contact-section')} className="bg-purple-900 py-2 px-4 rounded-md hover:bg-purple-950 duration-300 transition ease-in-out delay-150 ">
+            <button onClick={() => scrollToSection('contact-section')} className="bg-purple-800 py-2 px-4 rounded-md hover:bg-purple-950 duration-300 transition ease-in-out delay-150 ">
                 Contato
             </button>
             </li>
