@@ -54,6 +54,7 @@ const Index = () => {
       {/* Imagem de fundo */}
       <img
         src="/oooscillate.svg"
+        alt="background pattern"
         className="absolute inset-0 w-full h-full object-cover opacity-50"
       />
 

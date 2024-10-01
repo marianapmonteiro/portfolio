@@ -15,7 +15,7 @@ function index() {
 
   return (
     <section id="technologies-section" className="h-fit lg:h-screen 2xl:h-fit 2xl:py-32 w-full pt-20 pb-40 lg:py-20 px-20 overflow-hidden relative bg-[url('/pattern.svg')] bg-opacity-5 z-40">
-       <img src="/blur_technologies.svg" className="absolute bg-center bg-no-repeat bg-cover bottom-0 m-auto select-none pointer-events-none" /> 
+       <img src="/blur_technologies.svg"  alt="background svg pattern" className="absolute bg-center bg-no-repeat bg-cover bottom-0 m-auto select-none pointer-events-none" /> 
       <h2 className="text-[36px] pb-20">_Tecnologias</h2>
         <div className="w-full h-fit bg-slate-900 p-4 rounded-md">
           <Carousel className="w-full h-fit" opts={{
@@ -28,7 +28,7 @@ function index() {
                     <Card className="h-[200px] w-[200px] p-6 flex flex-col gap-6 rounded-md border-slate-500 bg-gradient-to-b from-gray-800 to-slate-950 text-white cursor-pointer ">
                       <CardContent className="flex flex-col gap-2 aspect-square items-center justify-center">
                         <span className="text-2xl font-semibold">{titles[index]}</span>
-                        <img src={imgs[index]} />
+                        <img src={imgs[index]} alt="Imagem do logo da tecnologia"/>
                       </CardContent>
                     </Card>
                 </CarouselItem>

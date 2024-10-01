@@ -10,10 +10,10 @@ function Index() {
   const expDescriptions = ["Curso de desenvolvimento Web (Javascript Vanilla, CSS, HTML, Vue).", "Privat - Serviços Tecnológicos", "UniCesumar" ]
   return (
     <section id="third-section" className="py-20 px-20 bg-slate-950 relative overflow-hidden">
-      <img src="bbblurry.svg" className="absolute top-0 md:top-[-30%] right-0 md:left-0 select-none pointer-events-none"  />
+      <img src="bbblurry.svg"  alt="background pattern" className="absolute top-0 md:top-[-30%] right-0 md:left-0 select-none pointer-events-none"  />
       {/* <img src="/bg-dots.png" className="absolute top-0 left-0" style={{width:"150px", height:"120px", clipPath: "inset(1% 49% 25% 0)"}}/> */}
-      <img src="/bg-dots.png" className="select-none pointer-events-none absolute bottom-0 right-0" style={{width:"200px", height:"auto", clipPath: "polygon(100% 0, 0% 100%, 100% 100%)"}}/>
-      <img src="/bg-dots.png" className="select-none pointer-events-none absolute top-[-1%] left-[15px]" style={{width:"200px", height:"auto", clipPath: "inset(0 67% 50% 0)"}}/>
+      <img src="/bg-dots.png"  alt="background pattern dots" className="select-none pointer-events-none absolute bottom-0 right-0" style={{width:"200px", height:"auto", clipPath: "polygon(100% 0, 0% 100%, 100% 100%)"}}/>
+      <img src="/bg-dots.png"  alt="background pattern dots" className="select-none pointer-events-none absolute top-[-1%] left-[15px]" style={{width:"200px", height:"auto", clipPath: "inset(0 67% 50% 0)"}}/>
       <h2 className="text-[36px] mb-20">_Experiências</h2>
       <ol className="items-center sm:flex">
         {expTitles.map((item, index)=>{

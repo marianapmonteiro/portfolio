@@ -18,7 +18,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 
 export const metadata = {
   title: "Mariana.Dev",
-  description: "",
+  description: "Desenvolvedora full-stack com foco em desenvolvimento de aplicações web e mobile.",
 };
 
 export default function RootLayout({ children }) {

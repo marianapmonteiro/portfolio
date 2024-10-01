@@ -27,11 +27,11 @@ const index = () => {
           transition={{ duration: 0.3 }}
         >
           <h2 className="text-[44px] font-bold">Olá! 👋</h2>
-          <h2 className="text-[24px] font-bold">Me chamo Mariana e sou
+          <h1 className="text-[24px] font-bold">Me chamo Mariana e sou
             <span className="ml-1.5 font-bold bg-gradient-to-r from-sky-400 to-purple-600 inline-block text-transparent bg-clip-text">
               Desenvolvedora Web
             </span>
-          </h2>
+          </h1>
           <p>Com mais de 3 anos de experiência no desenvolvimento de aplicações, sempre busco entregar qualidade e funcionalidade ao usuário. </p>
           <button type="button" className="mt-2 text-white bg-gradient-to-r w-fit from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-bold rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
             <a href="/CV_MarianaPMonteiro.pdf" download>
