@@ -17,6 +17,11 @@ const router = require("../router.js");
 
 app.use('/api', router);
 
+console.log('Iniciando a função ping...');
+
+setInterval(() => {
+    console.log("ping");
+}, 300000); // 300000 ms = 5 minutos
 
 const server = app.listen(PORT, () => {
     console.log(`Servidor rodando na porta ${PORT}`)
