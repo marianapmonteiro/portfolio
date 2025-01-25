@@ -10,8 +10,8 @@ import { Card, CardContent } from "@/components/ui/card"
 
 
 function index() {
-  const imgs = ["/HTML5.svg","/CSS3.svg", "/JavaScript.svg", "/TypeScript.svg", "/React.svg", "/Next.js.svg", "/Tailwind.svg", "/Node.js.svg", "/Express.svg","/MongoDB.svg","/SQLDeveloper.svg",]
-  const titles = ["HTML5","CSS3", "JavaScript", "TypeScript", "React", "Next", "Tailwind", "Node", "Express","MongoDB","SQL",]
+  const imgs = ["/HTML5.svg","/CSS3.svg", "/JavaScript.svg", "/React.svg", "/Next.js.svg", "/Tailwind.svg", "/Node.js.svg", "/Express.svg","/MongoDB.svg","/SQLDeveloper.svg",]
+  const titles = ["HTML5","CSS3", "JavaScript", "React", "Next", "Tailwind", "Node", "Express","MongoDB","SQL",]
 
   return (
     <section id="technologies-section" className="h-fit lg:h-screen 2xl:h-fit 2xl:py-32 w-full pt-20 pb-40 lg:py-20 px-20 overflow-hidden relative bg-[url('/pattern.svg')] bg-opacity-5 z-40">
@@ -23,7 +23,7 @@ function index() {
               loop: true,
           }}>
             <CarouselContent className="-ml-2">
-              {Array.from({ length: 11 }).map((_, index) => (
+              {Array.from({ length: 10 }).map((_, index) => (
                 <CarouselItem key={index} className="md:basis-2/5 lg:basis-1/5 xl:basis-80 flex justify-center items-center ">
                     <Card className="h-[200px] w-[200px] p-6 flex flex-col gap-6 rounded-md border-slate-500 bg-gradient-to-b from-gray-800 to-slate-950 text-white cursor-pointer ">
                       <CardContent className="flex flex-col gap-2 aspect-square items-center justify-center">
